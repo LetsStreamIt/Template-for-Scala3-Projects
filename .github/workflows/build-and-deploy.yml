@@ -22,6 +22,12 @@ jobs:
       - name: Build and test
         shell: bash
         run: sbt -v +test
+      - name: Check formatting
+        shell: bash
+        run: sbt -v scalafmtCheckAll
+      - name: Run linter
+        shell: bash
+        run: sbt -v "scalafixAll --check"
   release:
     permissions:
       contents: write
