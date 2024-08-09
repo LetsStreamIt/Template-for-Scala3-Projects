@@ -1,3 +1,24 @@
+## [1.1.0](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.0.1...v1.1.0) (2024-08-09)
+
+### Features
+
+* added lint and format checks to ci ([d7d9d03](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/d7d9d036eeddf307810c52bd4caf89ce8080f100))
+* configured pre-commit hooks ([11e0fc6](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/11e0fc6761419ca7ab1f80f3b41b9816f2201ecf))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.93 ([b9a7c34](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/b9a7c34a8170ee6a4691e9a1431c31d5e9c3fc75))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.94 ([8b764c5](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/8b764c5f17e6032f13aa5a2ebf71cdc5f294b93d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.95 ([ae10bc1](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/ae10bc199d53974a59aedf4c371cc887e5705bf7))
+
+### Bug Fixes
+
+* removed hook creation in ci ([efde5e2](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/efde5e23b9b30cebe9e2509b09787f47566ce288))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.2.2 ([2749612](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/27496129827cc8bac7d5700fa81d44863824f955))
+
 ## [1.0.1](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.0.0...v1.0.1) (2024-07-28)
 
 ### Bug Fixes
