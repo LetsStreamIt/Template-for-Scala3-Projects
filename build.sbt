@@ -40,6 +40,11 @@ lazy val root = project
 onLoad in Global := {
   val previous = (onLoad in Global).value
   previous andThen { state =>
-    Project.extract(state).runTask(runOnLoad, state)._1
+    val isCI = sys.env.get("CI").contains("true")
+    if (!isCI) {
+      Project.extract(state).runTask(runOnLoad, state)._1
+    } else {
+      state // Just return the state without running the task
+    }
   }
 }
