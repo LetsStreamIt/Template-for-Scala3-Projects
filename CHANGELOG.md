@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.0...v1.1.1) (2024-08-15)
+
+### Dependency updates
+
+* **core-deps:** update dependency scala to v3.4.3 ([81400dc](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/81400dced4fa6352a69d140aa4f06af8aed3d73d))
+* **deps:** update dependency org.scalameta:munit to v1.0.1 ([6c3ee58](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/6c3ee58fd6551da00ce5b75bfb5e90797da11413))
+
 ## [1.1.0](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.0.1...v1.1.0) (2024-08-09)
 
 ### Features
