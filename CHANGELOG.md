@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.1...v1.1.2) (2024-08-16)
+
+### Dependency updates
+
+* **core-deps:** update dependency scala to v3.5.0 ([d7e70d5](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/d7e70d574772ad38f5cc388051bf7e0866fa6ae6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.96 ([20375d8](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/20375d8f1eef4987f5883321ff6e449772f144ea))
+
 ## [1.1.1](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.0...v1.1.1) (2024-08-15)
 
 ### Dependency updates
