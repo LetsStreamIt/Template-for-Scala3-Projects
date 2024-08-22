@@ -6,7 +6,7 @@
     "semantic-release-preconfigured-conventional-commits": "1.1.98"
   },
   "engines": {
-    "node": "20.16"
+    "node": "20.17"
   },
   "scripts": {
     "prepare": "husky"
