@@ -1,3 +1,30 @@
+## [1.1.3](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.2...v1.1.3) (2024-09-19)
+
+### Dependency updates
+
+* **core-deps:** update dependency scala to v3.5.1 ([0d83a30](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/0d83a307a0cc2399458f70e66fdbde5755092a76))
+* **deps:** update commitlint monorepo to v19.5.0 ([bfb3560](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/bfb356019a21c289a0ec888dc6727592ba43edba))
+* **deps:** update dependency @commitlint/cli to v19.4.1 ([1e94f9a](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/1e94f9a8adb15fc03acb3bf90e72067469317d4d))
+* **deps:** update dependency @commitlint/config-conventional to v19.4.1 ([80a2804](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/80a280489689ff40b98022b8da14ffc0caa2f263))
+* **deps:** update dependency husky to v9.1.5 ([db8edad](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/db8edadb86c3bcd350d2a29238ac853eb0454643))
+* **deps:** update dependency husky to v9.1.6 ([6e9ce48](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/6e9ce48c8e3d30304730c1da1304bc0c1954373b))
+* **deps:** update dependency org.scalameta:munit to v1.0.2 ([8869901](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/886990168c17dbb31c6cf9d8f0b27ad0ef7d90af))
+* **deps:** update dependency sbt/sbt to v1.10.2 ([21b24f7](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/21b24f7cb2da089be04181183e781cb1235eb213))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.101 ([9c6c8f3](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/9c6c8f39bf61ae5d7e56e14a17c0af60c0fa094a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.102 ([0911cd5](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/0911cd508719aa341583131ed8662c37e8518232))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.103 ([d243517](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/d243517986edbc5ae2f97b5f75aec3e218cb0b19))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.104 ([712a873](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/712a873095e701faae98f16e8c8b05f0aca08460))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.105 ([6487b56](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/6487b5691f04f1cdad07210ff8026f65d6c01325))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.106 ([74536a7](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/74536a7450eb52c1c8e753612c37b63ac64d8745))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.97 ([62678ce](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/62678ce603b5c2b7d239221c93ba89f880a1e864))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.98 ([4386ea9](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/4386ea9b4c96e7e3ab2566d449c43f300685ec7f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.99 ([535d11e](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/535d11e4bd8bdb67ac3d8c562d4e976138c3221b))
+* **deps:** update node.js to 20.17 ([d6f05d1](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/d6f05d10b7b0106d96773f5be98464cb745ad76e))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.3.0 ([852d0f8](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/852d0f8b5a0c48bc955bea1838e7d6e2ffa33e9f))
+
 ## [1.1.2](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.1...v1.1.2) (2024-08-16)
 
 ### Dependency updates
