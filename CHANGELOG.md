@@ -1,3 +1,13 @@
+## [1.1.5](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.4...v1.1.5) (2024-10-20)
+
+### Dependency updates
+
+* **core-deps:** update dependency scala to v3.6.1 ([20fe9c2](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/20fe9c2ac088f6eb405aa39114ea65d33f2eabf4))
+
+### Build and continuous integration
+
+* **deps:** update sbt/setup-sbt action to v1.1.1 ([75ccfdc](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/75ccfdc739059c2a402d2a116a99e822c02e553d))
+
 ## [1.1.4](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.3...v1.1.4) (2024-10-17)
 
 ### Dependency updates
