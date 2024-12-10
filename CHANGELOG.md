@@ -1,3 +1,39 @@
+## [1.1.6](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.5...v1.1.6) (2024-12-10)
+
+### Dependency updates
+
+* **core-deps:** update dependency scala to v3.6.2 ([#70](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/70)) ([26aba2f](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/26aba2fd9f615f159249b4dd22b4335c6577779e))
+* **deps:** update commitlint monorepo to v19.6.0 ([#65](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/65)) ([ad161cc](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/ad161cc91f5a7a4adcd78bc58184de4602724070))
+* **deps:** update dependency husky to v9.1.7 ([#64](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/64)) ([1733fd8](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/1733fd86692be37e75e4535c367198ffea436a42))
+* **deps:** update dependency org.scalameta:munit to v1.0.3 ([#67](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/67)) ([f3f5f28](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/f3f5f289687dae83e00c7b8d9ad7b12e4748f600))
+* **deps:** update dependency sbt/sbt to v1.10.3 ([056cf6a](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/056cf6ac96740a6f85da62e5f3905f19571727f4))
+* **deps:** update dependency sbt/sbt to v1.10.4 ([30f3687](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/30f36873edacafd53079cb99cf30cfb565dd7bbb))
+* **deps:** update dependency sbt/sbt to v1.10.5 ([31f3bc3](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/31f3bc36ceab374c50cab394839f3fc0b411602f))
+* **deps:** update dependency sbt/sbt to v1.10.6 ([#66](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/66)) ([672dc3b](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/672dc3bb181692bc640558c4f5c420323c24a2cf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.112 ([787a521](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/787a5211e3f8c75a2e7f4dde674bf223c7e5a333))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.113 ([01d6648](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/01d6648bbcfbf540596b1e0afb05259a42b76540))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.114 ([a198c14](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/a198c147af27f9b1acb5980b6aa0a8b9531dfaf8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.115 ([#63](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/63)) ([3b9f09b](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/3b9f09b5158d6f42e45f647925ba87a09df988b6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.116 ([#69](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/69)) ([b21370f](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/b21370fc2d3b039388612240d7559d0a69e3ec0c))
+* **deps:** update node.js to 22.12 ([#68](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/68)) ([1a0d61b](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/1a0d61bb0339bad9f40aa5e5d115e768bfaada5a))
+* **deps:** update node.js to v22 ([bd1fac1](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/bd1fac1ea72101b98378aa61080ec5484bba7408))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.2.2 ([4222e48](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/4222e488de1d2cdb68e12336644a99bf6b981996))
+* **deps:** update actions/setup-java action to v4.5.0 ([0a851fc](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/0a851fc80d67f0d65e88611805de6b87ad68db58))
+* **deps:** update actions/setup-node action to v4.1.0 ([bbbce80](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/bbbce8078b027ac0c2342af3605d38e3f84ae3ae))
+* **deps:** update danysk/action-checkout action to v0.2.22 ([1d07a1e](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/1d07a1e4cba1bf368d1b975ae0e0479e6ade07b0))
+* **deps:** update sbt/setup-sbt action to v1.1.2 ([7354c1f](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/7354c1f330e7405c4cc7ee08b1742fa0b96613ce))
+* **deps:** update sbt/setup-sbt action to v1.1.3 ([9e2f259](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/9e2f259572d4b55bef65c54bfc9295cc7df51ff5))
+* **deps:** update sbt/setup-sbt action to v1.1.4 ([#62](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/62)) ([6b4321e](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/6b4321edd3b0f52c3702b506a13057732ccf2782))
+* update commitlint.config.mjs ([2984637](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/2984637d39af6e303d85b13743617c9707051279))
+* update release.config.mjs ([3c47eca](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/3c47ecabcfd1894b63096710c0ccadbf06b94dce))
+
+### General maintenance
+
+* update readme ([c92d6dc](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/c92d6dc121900e4081a4f461d6dde27453b639ba))
+
 ## [1.1.5](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.4...v1.1.5) (2024-10-20)
 
 ### Dependency updates
