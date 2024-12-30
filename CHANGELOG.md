@@ -1,3 +1,22 @@
+## [1.1.7](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.6...v1.1.7) (2024-12-30)
+
+### Dependency updates
+
+* **deps:** update dependency @commitlint/cli to v19.6.1 ([#72](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/72)) ([dadb5cb](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/dadb5cbcd75785900fe196fe406e340fac6186d4))
+* **deps:** update dependency sbt/sbt to v1.10.7 ([#74](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/74)) ([ca359dd](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/ca359dd83b5c4243147acbab9a72c8423590d714))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.117 ([#73](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/73)) ([b9853d6](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/b9853d63bcac50cb01e57c91556765d83cb408a7))
+
+### Bug Fixes
+
+* **ci:** add permissions to semantic release ([e3c5cfa](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/e3c5cfa802d363338a97b84fd15df67b26140592))
+* **ci:** avoid running husky in ci ([de4422e](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/de4422e44b7a668c2cba1b8686203d367a2bcdb8))
+* **ci:** remove permit-credentials ([126d810](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/126d8103dd273e8228a278605c32c9de14f85a4c))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.6.0 ([#71](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/71)) ([ac1fce6](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/ac1fce607e22bdcd746d1364a4b706d8d57680b4))
+* **deps:** update sbt/setup-sbt action to v1.1.5 ([#75](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/issues/75)) ([dcccffe](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/commit/dcccffe6efd43e24a6c532a1da7e92a9bfaa5591))
+
 ## [1.1.6](https://github.com/LetsStreamIt/Template-for-Scala3-Projects/compare/v1.1.5...v1.1.6) (2024-12-10)
 
 ### Dependency updates
