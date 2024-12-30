@@ -1,19 +1,13 @@
-import config from 'semantic-release-preconfigured-conventional-commits' with { type: "json" }
+import config from 'semantic-release-preconfigured-conventional-commits' with { type: "json" };
 
-const publishCmd = `
-git tag -a -f v\${nextRelease.version} v\${nextRelease.version} -F CHANGELOG.md  || exit 1
-export CI_COMMIT_TAG="true"
-`
+config.preset = 'conventionalcommits';
+config.tagFormat = 'v${version}';
 config.plugins.push(
-    [
-        "@semantic-release/exec",
-        {
-            "publishCmd": publishCmd,
-        }
-    ],
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
     "@semantic-release/github",
-    "@semantic-release/git",
-)
-config.tagFormat = "v${version}"
+    "@semantic-release/git"
+);
 
-export default config
+export default config;

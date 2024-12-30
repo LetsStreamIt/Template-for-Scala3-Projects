@@ -30,18 +30,52 @@ jobs:
       - name: Run linter
         shell: bash
         run: sbt -v "scalafixAll --check"
+
+  compute-next-version:
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    outputs:
+        will-release: ${{ steps.compute-next-version.outputs.will-release }}
+        next-version: ${{ steps.compute-next-version.outputs.next-version }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4.2.1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '21'
+          cache: 'npm'
+      - name: Pre-compute the next version
+        id: compute-next-version
+        uses: nicolasfara/precompute-semantic-release-version-action@2.0.1
+        with:
+          github-token: ${{ secrets.GH_TOKEN }}
+      - name: Use the next version
+        run: |
+          echo "Will release: ${{ steps.compute-next-version.outputs.will-release }}"
+          echo "The next version is ${{ steps.compute-next-version.outputs.next-version }}"
+
   release:
     permissions:
       contents: write
       packages: write
+    if: >-
+      !github.event.repository.fork
+      && (
+        github.event_name != 'pull_request'
+        || github.event.pull_request.head.repo.full_name == github.repository
+      )
     concurrency:
       # Only one release job at a time. Strictly sequential.
-      group: release
+      group: release-${{ github.event.number || github.ref }}
     runs-on: ubuntu-latest
     needs:
-      - build
-    outputs:
-      node-version: ${{ steps.node-version.outputs.node-version }}
+      - compute-next-version
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
@@ -51,13 +85,15 @@ jobs:
           node-version: lts/*
       - run: npm clean-install
       - env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
+
   success:
     runs-on: ubuntu-latest
     needs:
       - build
       - release
+      - compute-next-version
     if: >-
       always() && (
         contains(join(needs.*.result, ','), 'failure')
